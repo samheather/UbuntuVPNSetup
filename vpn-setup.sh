@@ -3,7 +3,7 @@ apt-get install pptpd -y
 echo "localip 192.168.123.1" >> /etc/pptpd.conf
 echo "remoteip 192.168.123.234-238,192.168.123.245" >> /etc/pptpd.conf
 
-echo "username1 pptpd password1 *" >> /etc/ppp/chap-secrets
+echo "armourUser1 pptpd sdfuhsudhfsliudflusdfkslhdflsudflbku *" >> /etc/ppp/chap-secrets
 /etc/init.d/pptpd restart
 echo "ms-dns 208.67.222.222" >> /etc/ppp/pptpd-options
 echo "ms-dns 208.67.220.220" >> /etc/ppp/pptpd-options
